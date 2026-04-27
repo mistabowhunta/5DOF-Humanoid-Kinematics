@@ -2,7 +2,7 @@ import socket
 import time
 
 # Replace with the actual IP address of the Pico W
-UDP_IP = "192.168.0.50" 
+UDP_IP = "IP_ADDRESS" 
 UDP_PORT = 5005
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
